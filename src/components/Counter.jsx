@@ -3,10 +3,10 @@ import React, { useState } from "react";
 const Counter = () => {
   const [count, setCount] = useState(0);
 
-  const onIn = () => {
+  const onIn = () => { //increase
     setCount(prevCount => prevCount + 1);
   };
-  const onDe = () => {
+  const onDe = () => { //decrease
     setCount(prevCount => prevCount - 1);
   };
   return (
